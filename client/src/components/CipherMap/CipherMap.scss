@@ -1,0 +1,27 @@
+.ciphermap-container {
+  padding: 1rem;
+}
+
+.react-calendar-heatmap {
+  margin: 1rem;
+  margin-bottom: 0;
+}
+text {
+  font-size: 0.5rem;
+  fill: #ffffffde;
+}
+
+rect {
+  fill: #262c36;
+}
+
+.line {
+  margin-top: 1.5rem;
+  width: 100%;
+  height: 1px;
+  background-color: rgba($color: #fff, $alpha: 0.1);
+}
+
+h4 {
+  color: #eee;
+}

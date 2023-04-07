@@ -1,0 +1,66 @@
+[
+  {
+    "id":1,
+    "followersCount": 5000,
+    "profession": "Artist",
+    "img": "https://media.philstar.com/photos/2022/12/10/cover_2022-12-10_16-14-45.jpg",
+    "name": "Sam kapoor"
+  },
+  {
+    "id":2,
+    "followersCount": 3000,
+    "profession": "Choreographer",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLZ7EUwsrKsWp30zEeT09WVo2YQRr0XATi3g&usqp=CAU",
+    "name": "Ani lemon"
+  },
+  {
+    "id":3,
+    "followersCount": 50000,
+    "profession": "Social Influencer",
+    "img": "https://img.freepik.com/free-photo/influencer-posting-social-media_23-2149194122.jpg?w=2000",
+    "name": "Back Carson"
+  },
+  {
+    "id":4,
+    "followersCount": 100000,
+    "profession": "Model",
+    "img": "https://welcomenri.com/shopping%20ladies/Beautiful-Models-in-Saree/beautiful-models-saree4.jpg",
+    "name": "Shreya Khataar"
+  },
+  {
+    "id":5,
+    "followersCount": 9000,
+    "profession": "Software Developer",
+    "img": "https://assets.entrepreneur.com/content/3x2/2000/1593079102-work-731198.jpg",
+    "name": "Aman Maheshwari"
+  },
+  {
+    "id":6,
+    "followersCount": 14000,
+    "profession": "UI/UX Designer",
+    "img": "https://cdn-bfbpk.nitrocdn.com/EKFqJbiebYiQTsJdvVlPmQxxVuITsOud/assets/images/optimized/rev-1ea02b1/wp-content/uploads/2019/07/UI-UX-980x544-1.jpg",
+    "name": "Zack Shaw"
+  },
+  {
+    "id":7,
+    "followersCount": 6500,
+    "profession": "Actress",
+    "img": "https://api.time.com/wp-content/uploads/2015/02/459792838.jpg?quality=85&w=1600",
+    "name": "jenelia fernandez"
+  },
+  {
+    "id":8,
+    "followersCount": 1700,
+    "profession": "Chef",
+    "img": "https://www.eatthis.com/wp-content/uploads/sites/4/2020/05/chef-cooking.jpg?quality=82&strip=1&w=970",
+    "name": "Joe Hardy"
+  },
+  {
+    "id":9,
+    "followersCount": 7800,
+    "profession": "Singer",
+    "img": "https://img.mensxp.com/media/content/2020/Apr/Leading-B-Wood-Singers-Who-Lost-On-Reality-Shows1400_5ea7d3fd5c2d2.jpeg",
+    "name": "Ahaan Mukharjee"
+  }
+
+]

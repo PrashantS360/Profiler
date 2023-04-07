@@ -1,0 +1,23 @@
+@import "../../../styles/constants.scss";
+
+.container {
+  position: relative;
+  margin-right: 1rem;
+}
+
+span {
+  position: absolute;
+  top: -10px;
+  right: -15px;
+  background-color: #f3912e;
+  width: 1rem;
+  height: 1.2rem;
+  @include flex-center;
+  border-radius: 2px;
+  font-size: 0.85rem;
+  color: #fff;
+}
+
+.bell_icon {
+  fill: #eeeeee;
+}

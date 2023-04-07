@@ -1,0 +1,28 @@
+@import "../../styles/constants.scss";
+
+.img_container {
+  background-image: url("./userinfo_bg-dark.png");
+  background-size: cover;
+  border: none;
+}
+
+.main_container {
+  @include flex-center;
+  justify-content: space-between;
+  background-color: #fff;
+  border-bottom: 1px solid rgba($color: #fff, $alpha: 0.1);
+  background: linear-gradient(to right, #262c36, transparent, #262c36);
+  min-height: 5rem;
+  max-width: 100vw;
+  padding-inline: 1rem;
+}
+
+// Followers
+.followers {
+  @media only screen and (max-width: 450px) {
+    display: none;
+  }
+  font-weight: 500;
+  color: #eee;
+  cursor: pointer;
+}

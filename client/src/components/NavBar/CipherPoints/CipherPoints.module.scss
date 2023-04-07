@@ -1,0 +1,17 @@
+@import "../../../styles/constants.scss";
+
+.container {
+  @include flex-center;
+  color: #f3912e;
+}
+
+.svg {
+  fill: #eee;
+  width: 1.4rem;
+}
+
+h1 {
+  margin-left: 0.2rem;
+  font-size: 0.95rem;
+  transform: translateY(-1px);
+}

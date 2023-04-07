@@ -1,0 +1,32 @@
+@import "../../../styles/constants.scss";
+
+.container {
+  background-color: #15181e;
+  height: 2.2rem;
+  min-width: 16rem;
+  @include flex-center;
+  justify-content: space-between;
+  overflow: hidden;
+  border-radius: 1rem;
+  padding-inline: 1rem;
+
+  @media only screen and (max-width: 750px) {
+    display: none;
+  }
+
+  .icon {
+    fill: #fff;
+    transform: translateY(2px);
+  }
+
+  input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding-left: 0.25rem;
+    color: #fff;
+    font-size: 0.85rem;
+  }
+}

@@ -1,0 +1,40 @@
+@import "../../styles/constants.scss";
+
+.input_container {
+  @include flex-center;
+  position: relative;
+  background-color: rebeccapurple;
+  width: 100%;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+p {
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+  color: #eee;
+}
+.icon {
+  position: absolute;
+  left: 1rem;
+}
+
+.input {
+  min-height: 2.5rem;
+  min-width: 100%;
+  border: none;
+  outline: none;
+  background-color: $background;
+  padding-left: 3rem;
+  padding-right: 2rem;
+  box-sizing: border-box;
+  color: #eee;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.pencil_icon {
+  position: absolute;
+  right: 1rem;
+  width: 0.7rem;
+}

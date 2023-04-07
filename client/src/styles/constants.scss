@@ -1,0 +1,9 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+$background: #262c36;
+$background-dark: #15181e;
+$accent: #f3912e;

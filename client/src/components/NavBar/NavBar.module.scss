@@ -1,0 +1,25 @@
+@import "../../styles/constants.scss";
+
+.container {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  background-color: #262c36;
+  min-height: 3.5rem;
+  border-bottom: 1px solid rgba($color: #fff, $alpha: 0.1);
+  padding-inline: 1rem;
+  @include flex-center;
+  justify-content: space-between;
+}
+
+.right_container {
+  @include flex-center;
+  gap: 1.5rem;
+
+  @media only screen and (max-width: 750px) {
+    gap: 1rem;
+  }
+  @media only screen and (max-width: 450px) {
+    gap: 0.5rem;
+  }
+}

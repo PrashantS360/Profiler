@@ -1,0 +1,135 @@
+@import "../../../styles/constants.scss";
+
+.container {
+  width: max-content;
+  min-height: 5.5rem;
+  @include flex-center;
+}
+
+.userimg_container {
+  position: relative;
+  padding-right: 1rem;
+
+  .userimg {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
+.edit_btn {
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 1px solid rgba($color: #fff, $alpha: 0.1);
+  border-radius: 50%;
+  background-color: #262c36;
+  position: absolute;
+  bottom: -0.2rem;
+  left: 1rem;
+
+  .edit_icon {
+    fill: #eee;
+  }
+}
+
+.userinfo_container {
+  color: #eeeeeee2;
+  h2 {
+    font-size: 1.2rem;
+  }
+}
+
+// MODAL
+.modal_background {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba($color: #000, $alpha: 0.4);
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(1px);
+  z-index: 999;
+}
+
+.modal_form {
+  position: fixed;
+  padding: 1rem;
+  border-radius: 1rem;
+  z-index: 9999;
+  background-color: $background;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  @include flex-center;
+  flex-direction: column;
+  align-items: flex-start;
+
+  @media only screen and (max-width: 460px) {
+    width: 100%;
+  }
+}
+
+.content {
+  @include flex-center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1rem;
+  width: 100%;
+
+  @media only screen and (max-width: 500px) {
+    flex-direction: column;
+  }
+}
+
+.userimg_big {
+  width: 7rem;
+  height: 7rem;
+}
+.file_input {
+  display: none;
+}
+
+.edit_btn_big {
+  @include flex-center;
+  left: 3rem;
+  bottom: -0.3rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.input_container {
+  li {
+    margin-bottom: 0.5rem;
+
+    p {
+      font-size: 0.85rem;
+    }
+    list-style: none;
+  }
+
+  li > input {
+    background-color: $background-dark;
+    border: none;
+    height: 2.2rem;
+    padding-inline: 1rem;
+    border-radius: 0.4rem;
+    min-width: 17rem;
+    color: white;
+  }
+}
+
+.btm_row {
+  @include flex-center;
+  justify-content: flex-end;
+  gap: 1rem;
+  width: 100%;
+  margin-top: 1rem;
+
+  button {
+    padding: 0.2rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+  }
+  button:nth-child(2) {
+    background-color: $accent;
+  }
+}

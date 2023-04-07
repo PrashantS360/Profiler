@@ -3,7 +3,7 @@
 Frontend code is inside `/client` and backend is inside `/backent`. Frontend is made with React, vite TypeScript and sass and for backend NodeJs, Express is used with TypeScript and serverless framework.
 
 ## Start frontend on local environment
-1. Clone the repository to your local computer using command "git clone https://github.com/sumanbiswas7/cipherSchools-assignment.git"
+1. Clone the repository to your local computer using command "git clone https://github.com/PrashantS360/Profiler.git"
 
 2. Install required modules and run the dev server using "npm i" and "npm run dev" respectively
 
